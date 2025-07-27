@@ -162,7 +162,7 @@ ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null root@<your-ip> -
 .github/workflows/dev.yml
 ```
 <details>
-<summary>Click to expand Dockerfile</summary>
+<summary>Click to expand Github Dev Workflow YML</summary>
     
 ```bash
 name: Deploy for Dev Branch
