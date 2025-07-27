@@ -187,7 +187,7 @@ jobs:
 
       - name: SSH into server and deploy
         run: |
-          ssh -p 52222 -o StrictHostKeyChecking=no root@vps.q2w.in << 'EOF'
+          ssh -p 56222 -o StrictHostKeyChecking=no root@<Set-Public-IP> << 'EOF'
 
             # Set variables
             ENVIRONMENT=dev
